@@ -11,6 +11,16 @@ module.exports = {
     './app.vue',
   ],
   theme: {
+    screens: {
+      'xxxs': '320px',   // iPhone SE, Galaxy S8
+      'xxs': '375px',    // iPhone 12/13/14, iPhone X/11 Pro
+      'xs': '425px',     // Large phones
+      'sm': '640px',     // Default Tailwind sm
+      'md': '768px',     // Default Tailwind md
+      'lg': '1024px',    // Default Tailwind lg
+      'xl': '1280px',    // Default Tailwind xl
+      '2xl': '1536px',   // Default Tailwind 2xl
+    },
     extend: {
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],

@@ -9,7 +9,7 @@ import FolderNotchOpen from '~/assets/images/svg/FolderNotchOpen.svg'
 <template>
     <div class="bg-[#F5F7FA] border-b">
         <div class="max-w-[1856px] mx-auto px-8 py-3">
-            <div class="flex items-center justify-between">
+            <div class="flex max-md:flex-col md:flex-row items-start md:items-center justify-between gap-3 md:gap-0">
                 <div class="flex items-center gap-4">
                   <button class="w-11 h-11 bg-[#2467EC] flex items-center justify-center">
                     <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" /></svg>
