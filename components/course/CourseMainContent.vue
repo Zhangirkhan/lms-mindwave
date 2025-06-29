@@ -34,27 +34,14 @@ const sections = [
         active: true,
         children: [
           {
-            title: "What's is Webflow?",
-            duration: '07:31',
-            completed: false,
-            children: [
-              {
-                title: 'Подкатегория 1',
-                duration: '03:12',
-                completed: false,
-                children: []
-              },
-              {
-                title: 'Подкатегория 2',
-                duration: '02:45',
-                completed: false,
-                children: []
-              }
-            ]
+            title: "Introduction to Webflow Platform",
+            duration: '03:45',
+            completed: true,
+            children: []
           },
           {
-            title: "What's is Webflow?",
-            duration: '07:31',
+            title: "Webflow vs Traditional Coding",
+            duration: '03:46',
             completed: false,
             children: []
           }
@@ -62,12 +49,56 @@ const sections = [
       },
       {
         title: '2. Sign up in Webflow',
-        duration: '07:31',
+        duration: '05:12',
         completed: false,
         children: [
           {
-            title: "What's is Webflow?",
-            duration: '07:31',
+            title: "Creating Your Account",
+            duration: '02:30',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Choosing the Right Plan",
+            duration: '02:42',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '3. Teaser of Webflow',
+        duration: '08:24',
+        completed: false,
+        children: [
+          {
+            title: "Interface Overview",
+            duration: '04:15',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Building Your First Element",
+            duration: '04:09',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '4. Figma Introduction',
+        duration: '06:18',
+        completed: false,
+        children: [
+          {
+            title: "What is Figma?",
+            duration: '02:45',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Figma to Webflow Workflow",
+            duration: '03:33',
             completed: false,
             children: []
           }
@@ -75,15 +106,406 @@ const sections = [
       }
     ],
     open: true,
-    info: '4 lectures • 51m',
+    info: '4 lectures • 27m',
     percent: '25% finish',
   },
-  { title: 'Secret of Good Design', lectures: [], info: '52 lectures • 5h 49m' },
-  { title: 'Practice Design Like an Artist', lectures: [], info: '43 lectures • 51m' },
-  { title: 'Web Development (webflow)', lectures: [], info: '137 lectures • 10h 6m' },
-  { title: 'Secrets of Making Money Freelancing', lectures: [], info: '21 lectures • 38m' },
-  { title: 'Advanced', lectures: [], info: '39 lectures • 1h 31m' },
-  { title: 'What\'s Next', lectures: [], info: '7 lectures • 1h 17m' },
+  { 
+    title: 'Secret of Good Design', 
+    lectures: [
+      {
+        title: '1. Design Principles Fundamentals',
+        duration: '12:45',
+        completed: false,
+        children: [
+          {
+            title: "Typography Basics",
+            duration: '06:20',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Color Theory",
+            duration: '06:25',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '2. Layout and Composition',
+        duration: '15:30',
+        completed: false,
+        children: [
+          {
+            title: "Grid Systems",
+            duration: '08:15',
+            completed: false,
+            children: []
+          },
+          {
+            title: "White Space Usage",
+            duration: '07:15',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '3. Visual Hierarchy',
+        duration: '11:20',
+        completed: false,
+        children: [
+          {
+            title: "Creating Focus Points",
+            duration: '05:45',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Contrast and Emphasis",
+            duration: '05:35',
+            completed: false,
+            children: []
+          }
+        ]
+      }
+    ],
+    info: '52 lectures • 5h 49m' 
+  },
+  { 
+    title: 'Practice Design Like an Artist', 
+    lectures: [
+      {
+        title: '1. Sketching Techniques',
+        duration: '09:15',
+        completed: false,
+        children: [
+          {
+            title: "Wireframing Basics",
+            duration: '04:30',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Rapid Prototyping",
+            duration: '04:45',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '2. Design Inspiration Sources',
+        duration: '07:42',
+        completed: false,
+        children: [
+          {
+            title: "Dribbble and Behance",
+            duration: '03:50',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Creating Mood Boards",
+            duration: '03:52',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '3. Design System Creation',
+        duration: '18:30',
+        completed: false,
+        children: [
+          {
+            title: "Component Libraries",
+            duration: '09:15',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Style Guides",
+            duration: '09:15',
+            completed: false,
+            children: []
+          }
+        ]
+      }
+    ],
+    info: '43 lectures • 51m' 
+  },
+  { 
+    title: 'Web Development (webflow)', 
+    lectures: [
+      {
+        title: '1. Webflow Interface Deep Dive',
+        duration: '14:25',
+        completed: false,
+        children: [
+          {
+            title: "Navigator Panel",
+            duration: '07:10',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Style Panel",
+            duration: '07:15',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '2. HTML Structure in Webflow',
+        duration: '16:45',
+        completed: false,
+        children: [
+          {
+            title: "Div Blocks and Containers",
+            duration: '08:20',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Semantic HTML Elements",
+            duration: '08:25',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '3. CSS Styling in Webflow',
+        duration: '22:30',
+        completed: false,
+        children: [
+          {
+            title: "Flexbox Layouts",
+            duration: '11:15',
+            completed: false,
+            children: []
+          },
+          {
+            title: "CSS Grid Implementation",
+            duration: '11:15',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '4. Responsive Design',
+        duration: '19:20',
+        completed: false,
+        children: [
+          {
+            title: "Breakpoints Setup",
+            duration: '09:40',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Mobile-First Approach",
+            duration: '09:40',
+            completed: false,
+            children: []
+          }
+        ]
+      }
+    ],
+    info: '137 lectures • 10h 6m' 
+  },
+  { 
+    title: 'Secrets of Making Money Freelancing', 
+    lectures: [
+      {
+        title: '1. Finding Your First Clients',
+        duration: '13:15',
+        completed: false,
+        children: [
+          {
+            title: "Building a Portfolio",
+            duration: '06:30',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Networking Strategies",
+            duration: '06:45',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '2. Pricing Your Services',
+        duration: '10:45',
+        completed: false,
+        children: [
+          {
+            title: "Value-Based Pricing",
+            duration: '05:20',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Creating Packages",
+            duration: '05:25',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '3. Client Communication',
+        duration: '14:00',
+        completed: false,
+        children: [
+          {
+            title: "Project Proposals",
+            duration: '07:00',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Managing Revisions",
+            duration: '07:00',
+            completed: false,
+            children: []
+          }
+        ]
+      }
+    ],
+    info: '21 lectures • 38m' 
+  },
+  { 
+    title: 'Advanced', 
+    lectures: [
+      {
+        title: '1. Custom Code Integration',
+        duration: '16:30',
+        completed: false,
+        children: [
+          {
+            title: "HTML Embeds",
+            duration: '08:15',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Custom CSS",
+            duration: '08:15',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '2. Webflow CMS',
+        duration: '20:45',
+        completed: false,
+        children: [
+          {
+            title: "Creating Collections",
+            duration: '10:20',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Dynamic Content",
+            duration: '10:25',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '3. E-commerce Setup',
+        duration: '18:15',
+        completed: false,
+        children: [
+          {
+            title: "Product Pages",
+            duration: '09:10',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Payment Integration",
+            duration: '09:05',
+            completed: false,
+            children: []
+          }
+        ]
+      }
+    ],
+    info: '39 lectures • 1h 31m' 
+  },
+  { 
+    title: 'What\'s Next', 
+    lectures: [
+      {
+        title: '1. Publishing Your Website',
+        duration: '12:20',
+        completed: false,
+        children: [
+          {
+            title: "Domain Setup",
+            duration: '06:10',
+            completed: false,
+            children: []
+          },
+          {
+            title: "SEO Basics",
+            duration: '06:10',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '2. Website Maintenance',
+        duration: '08:45',
+        completed: false,
+        children: [
+          {
+            title: "Regular Updates",
+            duration: '04:20',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Performance Optimization",
+            duration: '04:25',
+            completed: false,
+            children: []
+          }
+        ]
+      },
+      {
+        title: '3. Growing Your Skills',
+        duration: '15:30',
+        completed: false,
+        children: [
+          {
+            title: "Advanced Webflow Features",
+            duration: '07:45',
+            completed: false,
+            children: []
+          },
+          {
+            title: "Continuing Education",
+            duration: '07:45',
+            completed: false,
+            children: []
+          }
+        ]
+      }
+    ],
+    info: '7 lectures • 1h 17m' 
+  },
 ]
 const openSection = ref(0)
 
@@ -120,9 +542,22 @@ const exercises = [
 ]
 </script>
 <template>
-  <div class="grid lg:grid-cols-[60%_40%] gap-8">
-    <!-- Первый столбец: видео, вкладки, контент (65%) -->
-    <div class="bg-white min-h-screen p-0 w-full">
+          <div class="flex w-full max-lg:flex-col lg:flex-row gap-4">
+    <!-- Курсы столбец: на мобиле первый, на xl справа -->
+    <div class="max-lg:order-1 lg:order-2">
+      <CourseLessonsAccordion :sections="sections" v-model:openSection="openSection" />
+      <!-- Список курсов, пока скрыт -->
+      <div class="hidden mt-8" id="course-list">
+        <h3 class="text-xl font-bold mb-4 text-[#1D2026]">Другие курсы</h3>
+        <ul class="space-y-2">
+          <li class="p-4 bg-[#F5F7FA] rounded text-[#1D2026]">Курс 1: Основы Python</li>
+          <li class="p-4 bg-[#F5F7FA] rounded text-[#1D2026]">Курс 2: Веб-разработка</li>
+          <li class="p-4 bg-[#F5F7FA] rounded text-[#1D2026]">Курс 3: Дизайн интерфейсов</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Видео столбец: на мобиле второй, на xl слева -->
+    <div class="max-lg:order-2 lg:w-[60%] lg:order-1">
       <CourseVideoPlayer />
       <CourseLectureInfo />
       <CourseTabs :tabs="tabs" v-model="activeTab">
@@ -202,19 +637,6 @@ const exercises = [
           </div>
         </template>
       </CourseTabs>
-    </div>
-    <!-- Второй столбец: уроки (35%) -->
-    <div class="bg-white min-h-screen p-0 w-full flex flex-col">
-      <CourseLessonsAccordion :sections="sections" v-model:openSection="openSection" />
-      <!-- Список курсов, пока скрыт -->
-      <div class="hidden mt-8" id="course-list">
-        <h3 class="text-xl font-bold mb-4 text-[#1D2026]">Другие курсы</h3>
-        <ul class="space-y-2">
-          <li class="p-4 bg-[#F5F7FA] rounded text-[#1D2026]">Курс 1: Основы Python</li>
-          <li class="p-4 bg-[#F5F7FA] rounded text-[#1D2026]">Курс 2: Веб-разработка</li>
-          <li class="p-4 bg-[#F5F7FA] rounded text-[#1D2026]">Курс 3: Дизайн интерфейсов</li>
-        </ul>
-      </div>
     </div>
   </div>
 </template>

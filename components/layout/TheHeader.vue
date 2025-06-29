@@ -4,7 +4,7 @@ import TheMainHeader from '~/components/layout/header/TheMainHeader.vue'
 </script>
 
 <template>
-    <div>
+    <div class="sticky top-0 z-50 bg-white shadow-sm">
         <TheTopbar />
         <TheMainHeader />
     </div>
