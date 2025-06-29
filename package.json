@@ -1,13 +1,32 @@
 {
-  "name": "nuxt-app",
+  "name": "dev-pages",
+  "version": "1.0.0",
+  "description": "Современная образовательная платформа с интерактивным видео плеером и адаптивным дизайном",
+  "author": "Nurgaliyev Zhangirkhan",
+  "license": "MIT",
+  "keywords": [
+    "nuxt3",
+    "vue3",
+    "tailwindcss",
+    "education",
+    "video-player",
+    "responsive",
+    "learning-platform"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/dev-pages.git"
+  },
   "private": true,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "type-check": "nuxt typecheck"
   },
   "dependencies": {
     "@heroicons/vue": "^2.2.0",
@@ -20,5 +39,9 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^7.0.0-beta.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   }
 }
